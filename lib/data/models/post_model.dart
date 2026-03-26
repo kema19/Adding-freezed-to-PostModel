@@ -27,7 +27,7 @@ class PostModel with _$PostModel {
       id: id,
       content: content,
       authorId: authorId,
-      createdAt: createdAt.toIso8601String(),
+      createdAt: createdAt,
       likes: likes,
       isLiked: isLiked,
     );
